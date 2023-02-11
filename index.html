@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Portfolio - Kaio</title>
+</head>
+<body>
+
+
+   <main class="container">
+    <style>
+        h1 {
+    max-width: 580px;
+    text-align: center;
+    margin: 180px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+  }
+
+  h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+    </style>
+
+    <nav>
+        <h2>Kaio <span>Gremaschi</span></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#quemsou">Quem sou</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#"><span>Inscreva-se</span></a></li>
+        </ul>
+    </nav>
+
+
+
+    <h1>Olá, me chamo Kaio sou Designer Grafáfico e Aprendiz de Programdor Front End!  --------------------  OBS: SITE EM DESENVILVIMENTO (;</h1>
+
+    <script>
+        function typeWriter(elemento) {
+          const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+          textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 75 * i);
+          });
+        }
+        const titulo = document.querySelector('h1');
+        typeWriter(titulo);
+      </script>
+    </main>  
+
+    <div class="quemsou" id="quemsou">
+        <video width="650" height="350" controls controls poster="https://3.bp.blogspot.com/-Sv6BlbpbD2o/WUwYZH_ASVI/AAAAAAAAJhU/RBDAuCFiHYcNrZLOMXoJ7xUwfPsD-o2qACEwYBhgL/s1600/QUEM-SOU-EU.png">>
+            <source src="video/SaveTube.App-Quem sou eu   Vamos descobrir isso juntos   Video Sistema de Ensino CNEC 2018.mp4" type="video/mp4">
+      </video>
+      <p>
+        Sejam bem-vindos, me chamo Kaio, sou designer gráfico há mais de 3 anos. Durante esses 3 anos já fiz diversos trabalhos, desde logos até banners, já trabalhei em gráfica e realizei diversos trabalhos em Freelancer. Recentemente tenho me interessado por programação Web, fiz alguns projetos de programação visual e no ano de 2022 comecei a ter interesse na área de programação, com o apoio de professores e dos meus pais, estou conseguindo e me aperfeiçoando cada vez mais nos códigos.
+      </p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="projetos" id="projetos">
+      
+            <img src="img/Sem-Título-1.png" alt="">
+            <img src="img/Sem-Título-2.png" alt="">
+            <img src="img/Prancheta 1.png" alt="">
+            <img src="img/águia-flyer.png" alt="">
+            <img src="img/Fitness.png" alt="">
+            <img src="img/EA-Sportes-Neymar.png" alt="">
+            <img src="img/MI 11 LITE.jpg" alt="">
+            <img src="img/Flyer-Apple-Watch-6.png" alt="">
+
+    </div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=5555449972498&text=Ol%C3%A1,%20como%20posso%20ajudar?" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
+
+ 
+
+  <audio src="sound/Meditation - Monoman (Animation by Puuung).mp3" autoplay></audio>
+    
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

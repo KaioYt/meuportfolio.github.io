@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(29, 29, 29);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7aa;    
+    border-radius: 20px;      
+    border:  none;  
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background-color: rgba(44, 44, 44, 0.904);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    transition: 0.3s all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    font-size: 35px;
+    letter-spacing: 6px;
+  }
+
+nav h2 span{
+    color: blueviolet;
+    border: none;
+    font-size: 28px;
+    transition: 0.3s;
+}
+  
+  nav span{
+      font-size: 22px;
+      font-weight: bold;
+      color: blueviolet;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s all;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover{
+      transition: 0.3s all;
+      color: blueviolet;
+  }
+  
+  nav h1 a{
+    color: white;
+    text-decoration: none;
+  }
+
+nav span{
+    border: solid 3px blueviolet;
+    padding: 8px 25px 8px;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s all;
+} 
+
+nav span:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+
+.quemsou{
+    padding: 50px;
+    color: black;
+}
+
+.quemsou video{
+    display: flex;
+    margin-left: 10px;
+}
+
+.quemsou p{
+    display: flex;
+    max-width: 550px;
+    text-align: center;
+    margin-left: 720px;
+    margin-top: -290px;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.projetos img{
+    width: 400px;
+}

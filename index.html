@@ -7,8 +7,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assents/css/style.css">
-    <title>Meu Portfolio - Kaio</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Meu Portfolio - Kaio</title>
 </head>
 <body onload="checkCookie()">
 
@@ -75,12 +75,12 @@
     </div>
 
     <div class="form" id="contato">
-        <form action="#">
+        <form action="php/contato.php" method="POST">
             <h1>Contato</h1>
-            <input type="text" placeholder="Seu nome:" required>
-            <input type="email" placeholder="Digite seu e-mail:" required>
+            <input type="text" placeholder="Seu nome:" name="name" required maxlength="800">
+            <input type="email" placeholder="Digite seu e-mail:" name="email" required maxlength="800">
             <br>
-            <textarea name="text-area" id="" cols="30" rows="5" style="resize: none;" required></textarea>
+            <textarea name="text-area" id="" name="mensage" cols="30" rows="5" style="resize: none;" required></textarea>
             <br>
             <button>Enviar ></button>
             <br>

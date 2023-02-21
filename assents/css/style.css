@@ -393,6 +393,22 @@ footer ul{
     animation: a3 2s;
 }
 
+.informacoes p{
+    animation: p 2s;
+}
+
+@keyframes p {
+    0% {
+        margin-left: 250px;
+    }
+    50% {
+
+    }
+    100%{
+
+    }
+}
+
 @keyframes a2 {
     0% {
         margin-left: -350px;
@@ -432,6 +448,120 @@ footer ul{
     }
   }
 
+/*--------------Mobile----------------*/
 
+@media screen and (max-width: 480px ){
+    .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
+        width: auto;
+        margin: 10px;
+    }
 
+    h1{
+        text-align: center;
+    }
 
+    span{
+        font-size: 35px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .meusprojetos{
+        margin-top: -105px;
+    }
+
+    .meus-rpojetos{
+        margin-left: 15px;
+    }
+
+    .quadrado{
+        margin: 0 auto;
+        width: 375px;
+        height: 60px;
+        top: 470px;
+        left: 0px;
+    }
+
+    .form img{
+        display: none;
+    }
+    
+    .form form{
+        position: relative;
+        align-items: center;
+        left: 0px;
+        top: -50px;
+    }
+
+    .form input{
+        padding: 10px 80px 10px;
+    }
+
+    .form textarea{
+        padding: 10px 60px 10px;
+    }
+
+    .form button{
+        padding: 10px 60px 10px;
+    }
+
+    footer{
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+    .aplicativo{
+        margin-left: 20px;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    
+    .social{
+        margin-left: 180px;
+        font-size: 14px;
+        margin-top: -70px;
+    }
+    
+    .contato a{
+        align-items: center;
+        margin-left: 900px;
+        position: relative;
+        top: -50px;
+        background-color: #fff;
+        padding: 10px 50px 10px;
+        color: rgb(39, 124, 194);
+        font-weight: bold;
+        border-radius: 15px;
+        transition: 0.3s all;
+    }
+
+    .contato{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
+        width: auto;
+    }
+
+    .form img{
+        display: none;
+    }
+    
+}

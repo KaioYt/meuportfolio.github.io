@@ -450,7 +450,7 @@ footer ul{
 
 /*--------------Mobile----------------*/
 
-@media screen and (max-width: 480px ){
+@media screen and (max-width: 450px ){
     .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
         width: auto;
         margin: 10px;
@@ -553,15 +553,4 @@ footer ul{
     .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
         width: auto;
     }
-}
-
-@media screen and (max-width: 540px) {
-    .container-cabecario, .meus-rpojetos, .informacoes, .meusprojetos, .form{
-        width: auto;
-    }
-
-    .form img{
-        display: none;
-    }
-    
 }
